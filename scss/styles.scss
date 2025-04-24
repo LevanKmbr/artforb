@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import "./reset";
+@import "./header";
+@import "./footer";
+@import "./responsive";
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.25px;
+  line-height: 35.2px;
+  ::selection {
+    background: rgb(243, 19, 243);
+    color: black;
+    text-shadow: 1px 0px 1px #1c5fdb;
+  }
+}
