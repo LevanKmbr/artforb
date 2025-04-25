@@ -1,6 +1,40 @@
-body {
-  ::selection {
-    background: #ffcc00; /* highlight background color */
-    color: #000000; /* highlighted text color */
+main {
+  .main-content {
+  }
+}
+
+.main-photo {
+  background-image: url(../images/gamofena.jpg);
+  background-position: 0px -150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.main-content-title {
+  font-family: "Yuji Boku", serif;
+  font-weight: 800;
+  font-style: normal;
+
+  h2 {
+    background-color: black;
+    color: #ffec00;
+    font-size: 45px;
+    &:hover {
+      background-color: #ffec00;
+      color: black;
+      font-size: 50px;
+    }
+  }
+
+  p {
+    background-color: black;
+    color: #ffec00;
+    font-size: 20px;
+    &:hover {
+      background-color: #ffec00;
+      color: black;
+      font-size: 25px;
+    }
   }
 }
