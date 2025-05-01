@@ -1,0 +1,30 @@
+section {
+  .first-card {
+    box-shadow: 10px 14px 84px -13px rgba(0, 0, 0, 0.88);
+    -webkit-box-shadow: 10px 14px 84px -13px rgba(0, 0, 0, 0.88);
+    -moz-box-shadow: 10px 14px 84px -13px rgba(0, 0, 0, 0.88);
+    min-height: 400px;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2JlMHE4NDd1NWNtYnZtY2I5bGMxeWE2MTZxcjMxeXJxZXNjeHh2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DcG97kvdwQjzcEk540/giphy.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* Add styles here */
+  }
+
+  .second-card {
+    box-shadow: 10px 14px 84px -13px rgba(0, 0, 0, 0.88);
+    -webkit-box-shadow: 10px 14px 84px -13px rgba(0, 0, 0, 0.88);
+    -moz-box-shadow: 10px 14px 84px -13px rgba(0, 0, 0, 0.88);
+    min-height: 400px;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2JlMHE4NDd1NWNtYnZtY2I5bGMxeWE2MTZxcjMxeXJxZXNjeHh2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DcG97kvdwQjzcEk540/giphy.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    h2 {
+      min-height: 50px;
+    }
+    p {
+      min-height: 50px;
+    }
+  }
+}

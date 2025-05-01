@@ -3,6 +3,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    .nav-list {
+      column-gap: 30px;
+    }
 
     .auth-form {
       display: none;
@@ -16,5 +19,13 @@
 @media (max-width: 1400px) {
   header {
     height: 160px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bottom-header {
+    .nav-list {
+      column-gap: 15px;
+    }
   }
 }
