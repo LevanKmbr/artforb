@@ -28,20 +28,22 @@
             />
           </a>
           <nav>
-            <ul class="nav-list">
-              <li class="list-item">
-                <a href="./about.html"> About </a>
-              </li>
-              <li class="list-item">
-                <a href="./contact.html"> Contact </a>
-              </li>
-              <li class="list-item">
-                <a href="./design.html"> Design</a>
-              </li>
-              <li class="list-item">
-                <a href="./discover.html"> Discover </a>
-              </li>
-            </ul>
+            <nav>
+              <ul class="nav-list">
+                <li class="list-item">
+                  <a href="./about.html"> About </a>
+                </li>
+                <li class="list-item">
+                  <a href="./design.html"> Design</a>
+                </li>
+                <li class="list-item">
+                  <a href="./discover.html"> Discover </a>
+                </li>
+                <li class="list-item">
+                  <a href="./contact.html"> Contact </a>
+                </li>
+              </ul>
+            </nav>
           </nav>
           <div class="auth-form">
             <form>
@@ -55,41 +57,50 @@
       </div>
     </header>
     <main class="container">
-      <div class="row">
-        <div class="col-12 mb-5 main-contact-photo border shadow-lg">
-          <div class="p-4 bg-transparent main-content-title">
-            <h2>
-              Where Branding Becomes Art Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Placeat, quidem optio inventore nam earum ullam
-              in nostrum laudantium dolores doloremque blanditiis maiores
-              voluptates libero ea? Illo exercitationem eum at ab nobis rerum.
-              Ducimus nostrum, voluptate illo porro fugit odio expedita.
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              laborum id iure fugiat corporis deserunt. Aliquid et reprehenderit
-              tempore temporibus excepturi! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rem laborum id iure fugiat corporis
-              deserunt. Aliquid et reprehenderit tempore temporibus excepturi!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              laborum id iure fugiat corporis deserunt. Aliquid et reprehenderit
-              tempore temporibus excepturi! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rem laborum id iure fugiat corporis
-              deserunt. Aliquid et reprehenderit tempore temporibus excepturi!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              laborum id iure fugiat corporis deserunt. Aliquid et reprehenderit
-              tempore temporibus excepturi! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rem laborum id iure fugiat corporis
-              deserunt. Aliquid et reprehenderit tempore temporibus excepturi!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              laborum id iure fugiat corporis deserunt. Aliquid et reprehenderit
-              tempore temporibus excepturi! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Rem laborum id iure fugiat corporis
-              deserunt. Aliquid et reprehenderit tempore temporibus excepturi!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              laborum id iure fugiat corporis deserunt. Aliquid et reprehenderit
-              tempore temporibus excepturi!
-            </p>
+      <div class="row justify-content-center main-contact-photo">
+        <!-- Contact Form Card -->
+        <div class="contact-card-1 col-md-5">
+          <div class="p-4">
+            <h2>Connect with us</h2>
+            <form action="#" method="post">
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="example@example.com"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  class="form-control subject-box"
+                  placeholder="Message subject"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn custom-btn w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Info Card -->
+        <div class="col-md-8">
+          <div class="contact-card-2 p-4">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> Tbilisi, Georgia.</p>
+            <p><strong>Phone:</strong> +995 597 008 030</p>
+            <p><strong>Email:</strong> worldprojects.artforb@gmail.com</p>
+            <p><strong>Working Hours:</strong> Mon–Fri, 10:00–18:00</p>
           </div>
         </div>
       </div>

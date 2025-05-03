@@ -1,0 +1,11 @@
+main {
+  min-height: 500px;
+
+  .rocket-background {
+    background-image: url("../images/background-rocket.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 1315px;
+    min-height: 1000px;
+  }
+}

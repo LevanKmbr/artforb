@@ -40,3 +40,25 @@ section {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .main-photo {
+    height: 800px;
+  }
+  .main-content-title {
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    h2 {
+      font-size: 30px;
+      &:hover {
+        font-size: 35px;
+      }
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+}
