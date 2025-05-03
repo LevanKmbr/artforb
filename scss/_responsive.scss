@@ -14,6 +14,16 @@
   footer {
     min-height: 550px;
   }
+  .fixed-icon {
+    position: fixed;
+    bottom: 3%;
+    right: 5px;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
 }
 
 @media (max-width: 1400px) {
